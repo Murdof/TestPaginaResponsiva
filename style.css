@@ -1,0 +1,74 @@
+html {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+button {
+    background-color: #F84646;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#presentation-container {
+    padding: 2.5rem 7.5rem;
+    height: 100vh;
+    background-image: url(/assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#presentation {
+    width: 37.5rem;
+    position: relative;
+    top: calc(50% - 9rem);
+}
+
+.container {
+    padding: 10rem 7.5rem;
+    text-align: center;
+}
+
+.container > h2 {
+    margin-top: .5rem;
+}
+
+.container p {
+    margin-top: 1.5px;
+}
+
+.container > button {
+    margin-top: 2rem;
+    transition: opacity 0.5s ease-in-out, transform 0.5s .2s;
+}
+
+.container > button:hover {
+    opacity: .8;
+    transform: scale(1.1);
+}
+
+.background-gradient {
+    background: linear-gradient(180deg, #fff, #d9d9d9);
+}
