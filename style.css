@@ -90,3 +90,56 @@ button {
     background-color: #F84646;
     color: #FFFFFF;
 }
+
+.aricle-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    margin: 0 2.5rem 0 0;
+    justify-content: space-between;
+}
+
+.aricle-details > button {
+    font-size: 1rem;
+}
+
+.article-container {
+    display: flex;
+}
+
+.article-container:nth-child(even) {
+    margin-top: 5rem;
+    flex-direction: row-reverse;
+}
+
+.article-container:nth-child(even) > .aricle-details {
+    margin: 0 0 0 2.5rem;
+}
+
+.footer-list {
+    display: flex;
+    text-align: left;
+    justify-content: center
+}
+
+.footer-list > ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.footer-list > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-list > ul > li:first-child {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+#footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.5rem;
+}
