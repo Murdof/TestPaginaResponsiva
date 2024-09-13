@@ -1,6 +1,8 @@
 # TestPaginaResponsiva
 Praticando e aprendendo a criar uma pagina responsiva
 
+Netlify - > https://testmurdofresponsive.netlify.app/
+
 ![image](https://github.com/user-attachments/assets/912c2aa1-0786-4668-86c3-eda67fdc825b)
 
 
